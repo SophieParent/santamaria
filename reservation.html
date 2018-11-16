@@ -1,0 +1,67 @@
+<!-- LAMARRE, Francis -->
+<!-- Parent, Sophie -->
+<!-- 15 - 11 - 2018 -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/santa-maria.css">
+	<title>Complexe Santa Maria</title>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Complexe Santa Maria</h1>
+		</header>
+		<nav>
+			<a href="index.html">Accueil</a>
+			<a href="yourtes.html">Yourtes</a>
+			<a href="">Activités</a>
+			<a href="reservation.html">Réservations</a>
+		</nav>
+		<main>
+			<div>
+				<h2>Réservations au Complexe Santa Maria</h2>
+				<h3 class="contact">Contactez-nous</h3>
+					Les informations obligatoires sont marquées d'un astérisque (*).
+					<form method="post" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
+						<label for="prenom">* Prénom:</label>
+						<input type="text" name="prenom" id="prenom" required="required">
+
+						<label for="nom">* Nom:</label>
+						<input type="text" name="nom" id="nom" required="required">
+
+						<label for="email">* Email:</label>
+						<input type="email" name="email" id="email"  required="required">
+
+						<label for="telephone">Téléphone:</label>
+						<input type="tel" name="telephone" id="telephone">
+
+						<label for="dateArr">Date d'arrivée:</label>
+						<input type="date" name="dateArr" id="dateArr">
+
+						<label for="nuits">Nuits:</label>
+						<input class="nuit" type="number" name="nuits" id="nuits">
+
+						<label for="commentaires">* Commentaires:</label>
+						<textarea name="commentaires" id="commentaires" rows="2" cols="20" required="required"></textarea>
+
+						<input id="mySubmit" type="submit" value="Soumettre">
+					</form>
+			</div>
+		</main>
+		<footer>
+			<small>
+				<i>
+					Copyright &copy; 2018 Complexe Santa Maria<br>
+					<a href="mailto:francis@lamarre.com">francis@lamarre.com</a>
+					<a href="mailto:sophie@parent.com">sophie@parent.com</a>
+				</i>
+			</small>
+		</footer>
+	</div>
+</body>
+</html>
